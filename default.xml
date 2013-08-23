@@ -410,7 +410,7 @@
   <project path="device/ldpi-common" name="erikcas/android_device_ldpi-common" remote="aokp" revision="jb-mr1" />
 
 
-  <project path="kernel/samsung/msm7x27" name="android_kernel_samsung_msm7x27" remote="utak3r" revision="android-4.2.1" />
+  <project path="kernel/samsung/msm7x27" name="android_gio_stock_kernel" remote="AOKPlegacy" revision="cm-10.1" />
 
   <project path="vendor/aokp" name="vendor_aokp" remote="AOKPlegacy" revision="jb-mr1" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="androidarmv6" revision="cm-10.1" />
