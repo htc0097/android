@@ -8,9 +8,6 @@
   <remote  name="github"
            fetch=".."
            review="review.androidarmv6.org" />
-
-  <remote  name="kevin"
-           fetch="https://github.com/" />  
 		   
   <remote  name="caf"
            fetch="git://codeaurora.org/"
@@ -269,12 +266,12 @@
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
-  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" />
+  <project path="hardware/qcom/display-legacy" name="cm10-1-marvel/android_hardware_qcom_display-legacy" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" />
   <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-  <project path="hardware/qcom/media_legacy" name="arco/android_hardware_qcom_media_legacy" />
+  <project path="hardware/qcom/media_legacy" name="cm10-1-marvel/android_hardware_qcom_media_legacy" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
@@ -404,12 +401,12 @@
   
       <!-- Marvel and icong support -->
 	  
-	<project name="cm10-1-marvel/android_vendor_htc_marvel" path="vendor/htc/marvel" remote="kevin" revision="master" />  
-    <project name="cm10-1-marvel/OWL-Predator-KERNEL" path="kernel/htc/msm7227" remote="kevin" revision="master" />
-    <project name="cm10-1-marvel/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" remote="kevin" revision="master" />
-    <project name="cm10-1-marvel/android_vendor_htc_icong" path="vendor/htc/icong" remote="kevin" revision="master" />
-    <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" remote="kevin" revision="refs/heads/gingerbread" />
-    <project name="cm10-1-marvel/android_device_htc_marvel" path="device/htc/marvel" remote="kevin" revision="master"/>
-    <project name="cm10-1-marvel/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" remote="kevin" revision="master"/>
+	<project name="cm10-1-marvel/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />  
+    <project name="cm10-1-marvel/OWL-Predator-KERNEL" path="kernel/htc/msm7227" revision="master" />
+    <project name="cm10-1-marvel/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="master" />
+    <project name="cm10-1-marvel/android_vendor_htc_icong" path="vendor/htc/icong" revision="master" />
+    <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
+    <project name="cm10-1-marvel/android_device_htc_marvel" path="device/htc/marvel" revision="master"/>
+    <project name="cm10-1-marvel/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" revision="master"/>
 
 </manifest>
