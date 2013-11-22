@@ -1,13 +1,18 @@
-platform_manifest
-=================
-Android for Samsung Ace (cooper)
+THE AOKP LEGACY TEAM
+====================
 
-$ repo init -u git://github.com/utak3r/platform_manifest.git -b AOKP-legacy
+This is the manifest for build aokp (jb-mr2) for legacy devices. Supported devices:
+
+    Galaxy Ace (cooper)
+
+INITIALIZING REPOSITORY
+=======================
+
+Init core trees without any device/kernel/vendor :
+
+$ repo init -u https://github.com/legacy-aokp/platform_manifest.git -b jb-mr2
+
+sync repo :
 
 $ repo sync
 
-$ source build/envsetup.sh
-
-$ lunch aokp_cooper-userdebug
-
-$ make -j2
