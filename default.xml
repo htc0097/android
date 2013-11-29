@@ -40,8 +40,8 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" groups="device" />
-  <project path="device/samsung/cooper" name="android_device_samsung_cooper" />
-  <project path="device/samsung/msm7x27-common" name="android_device_samsung_msm7x27-common" />
+  <project path="device/samsung/cooper" name="android_device_samsung_cooper" remote="legacy-aokp" />
+  <project path="device/samsung/msm7x27-common" name="android_device_samsung_msm7x27-common" remote="legacy-aokp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
