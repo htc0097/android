@@ -31,7 +31,7 @@
   </project>
   <project path="art" name="platform/art" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
-  <project path="bionic" name="android_bionic" remote="androidarmv6" revision="kitkat" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
