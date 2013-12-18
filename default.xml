@@ -233,6 +233,7 @@
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
   <project path="external/skia" name="android_external_skia" remote="androidarmv6" revision="cm-11.0" />
+  <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
@@ -292,7 +293,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-<<<<<<< HEAD
   <project path="hardware/atheros/ath6kl-compact" name="android_hardware_atheros_ath6kl-compat" remote="androidarmv6" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="androidarmv6" revision="cm-11.0" />
