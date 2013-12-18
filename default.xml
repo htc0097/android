@@ -71,7 +71,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="AOKP/external_busybox" remote="aokp" revision="kitkat" />
@@ -105,7 +105,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
+  <project path="external/clang" name="AOKP/external_clang" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -213,7 +213,7 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
+  <project path="external/openssh" name="AOKP/external_openssh" remote="aokp" revision="kitkat" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pigz" name="AOKP/external_pigz" remote="aokp" revision="kitkat" />
@@ -233,7 +233,6 @@
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
   <project path="external/skia" name="android_external_skia" remote="androidarmv6" revision="cm-11.0" />
-  <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
@@ -285,7 +284,7 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="AOKP/frameworks_opt_telephony" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="kitkat"  groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
@@ -293,40 +292,44 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
+<<<<<<< HEAD
   <project path="hardware/atheros/ath6kl-compact" name="android_hardware_atheros_ath6kl-compat" remote="androidarmv6" revision="cm-11.0" />
-  <project path="hardware/broadcom/libbt" name="AOKP/hardware_broadcom_libbt" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="AOKP/hardware_broadcom_wlan" remote="aokp" revision="kitkat" groups="broadcom_wlan" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="AOKP/hardware_libhardware" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
-  <project path="hardware/qcom/audio" name="AOKP/hardware_qcom_audio" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="AOKP/hardware_qcom_audio-caf" remote="aokp" revision="kitkat" groups="caf" />
-  <project path="hardware/qcom/bt" name="AOKP/hardware_qcom_bt" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="AOKP/hardware_qcom_display" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="androidarmv6" revision="cm-11.0" />
-  <project path="hardware/qcom/display-caf" name="AOKP/hardware_qcom_display-caf" remote="aokp" revision="kitkat" groups="caf" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="androidarmv6" revision="cm-11.0" />
-  <project path="hardware/qcom/keymaster" name="AOKP/hardware_qcom_keymaster" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/media" name="AOKP/hardware_qcom_media" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="AOKP/hardware_qcom_media-caf" remote="aokp" revision="kitkat" groups="caf" />
   <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="androidarmv6" revision="cm-11.0" />
+  <project path="kernel/samsung/msm7x27" name="android_kernel_samsung_msm7x27" remote="androidarmv6" revision="cm-11.0" />
+  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" groups="broadcom_wlan" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-11.0" groups="caf" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" groups="caf" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="cm" revision="cm-11.0" groups="caf" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="kitkat" />
+  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
-  <project path="hardware/qcom/wlan" name="AOKP/hardware_qcom_wlan" remote="aokp" revision="kitkat" />
-  <project path="hardware/ril" name="AOKP/hardware_ril" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="AOKP/hardware_ti_omap4xxx" remote="aokp" revision="kitkat" />
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wlan" name="AOKP/hardware_ti_wlan" remote="aokp" revision="kitkat" />
   <project path="hardware/ti/wpan" name="AOKP/hardware_ti_wpan" remote="aokp" revision="kitkat" />
-  <project path="kernel/samsung/msm7x27" name="android_kernel_samsung_msm7x27" remote="androidarmv6" revision="cm-11.0" />
   <project path="kernel/asus/flo" name="AOKP/kernel_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,kernel,flo" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-10.2" groups="notdefault,kernel,grouper" />
-  <project path="kernel/lge/hammerhead" name="kernel/msm" revision="android-msm-hammerhead-3.4-kk-r1" groups="notdefault,kernel,hammerhead" />
+  <project path="kernel/htc/m7" name="AOKP/kernel_htc_m7" remote="aokp" revision="kitkat" groups="notdefault,kernel,m7,m7att,m7spr,m7tmo,m7ul" />
+  <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="cm"  revision="cm-11.0" groups="notdefault,kernel,hammerhead" />
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,kernel,mako" />
   <project path="kernel/motorola/msm8960dt" name="AOKP/kernel_motorola_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,kernel,ghost,xt1053,xt1060" />
   <project path="kernel/samsung/d2" name="AOKP/kernel_samsung_d2" remote="aokp" revision="kitkat" groups="notdefault,kernel,d2,d2att,d2tmo,d2usc,d2vzw" />
@@ -339,40 +342,40 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="AOKP/packages_apps_Bluetooth" remote="aokp" revision="kitkat" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="notdefault,legacypackages" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
+  <project path="packages/apps/Dialer" name="AOKP/packages_apps_Dialer" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="notdefault,legacypackages" />
+  <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2" remote="aokp" revision="kitkat" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
+  <project path="packages/apps/InCallUI" name="AOKP/packages_apps_InCallUI" remote="aokp" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="notdefault,legacypackages" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="notdefault,legacypackages" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="notdefault,legacypackages" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
-  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="notdefault,legacypackages" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="kitkat" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="notdefault,legacypackages" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -412,28 +415,28 @@
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
   <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" />
-  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" />
-  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86" />
+  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,notdefault" />
+  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86,notdefault" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
   <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" />
-  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" />
-  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
+  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,notdefault" />
+  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86,notdefault" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse"  />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" remote="aosp" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86,notdefault" />
 
   <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
   <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips,notdefault" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips,notdefault" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86,notdefault" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86,notdefault" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
@@ -441,11 +444,11 @@
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips,notdefault" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips,notdefault" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86,notdefault" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86,notdefault" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86,notdefault" />
   <project path="prebuilts/misc" name="AOKP/prebuilts_misc" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
@@ -457,7 +460,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="system_core" remote="legacy-aokp" revision="kitkat" groups="pdk" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/media" name="AOKP/system_media" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/netd" name="android_system_netd" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
   <project path="system/qcom" name="AOKP/system_qcom" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
