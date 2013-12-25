@@ -290,7 +290,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-<!-- fix me later --><project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" revision="02411a3ae32fccf72575766d6c47e9b2ed1bfcb3" />
+<!-- fix me later --><project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" remote="cm" revision="02411a3ae32fccf72575766d6c47e9b2ed1bfcb3" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/atheros/ath6kl-compact" name="android_hardware_atheros_ath6kl-compat" remote="androidarmv6" revision="cm-11.0" />
