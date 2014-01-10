@@ -131,7 +131,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/f2fs-tools" name="AOKP/external_f2fs-tools" remote="aokp" revision="kitkat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" />
+  <project path="external/flac" name="CyanogenMod/android_external_flac" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="AOKP/external_fsck_msdos" remote="aokp" revision="kitkat" />
   <project path="external/fuse" name="AOKP/external_fuse" remote="aokp" revision="kitkat" />
@@ -341,13 +341,15 @@
   <project path="kernel/lge/msm8974" name="AOKP/kernel_lge_msm8974" remote="aokp" revision="kitkat" groups="notdefault,kernel,g2,d800,d801,d802,ls980,vs980" />
   <project path="kernel/motorola/msm8960dt" name="AOKP/kernel_motorola_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,kernel,ghost,xt1053,xt1060" />
   <project path="kernel/samsung/d2" name="AOKP/kernel_samsung_d2" remote="aokp" revision="kitkat" groups="notdefault,kernel,d2,d2att,d2tmo,d2usc,d2vzw" />
-  <project path="kernel/samsung/jf" name="AOKP/kernel_samsung_jf" remote="aokp" revision="kitkat" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
+  <project path="kernel/samsung/hlte" name="CyanogenMod/android_kernel_samsung_hlte" remote="cm" revision="cm-11.0" groups="notdefault,kernel,hlte,hltetmo" />
+  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="cm" revision="cm-11.0" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-11.0" groups="notdefault,kernel,manta" />
   <project path="kernel/samsung/smdk4412" name="omnirom/android_kernel_samsung_smdk4412" remote="omni" revision="android-4.4" groups="notdefault,kernel,t0lte,t0lteatt,t0ltetmo,i605,i9300,l900" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" groups="notdefault,kernel,maguro,toro,toroplus" />
   <project path="kernel/sony/apq8064" name="AOKP/kernel_sony_apq8064" remote="aokp" revision="kitkat" groups="notdefault,kernel,yuga,odin" />
   <project path="kernel/sony/msm8x60" name="AOKP/kernel_sony_msm8x60" remote="aokp" revision="kitkat" groups="notdefault,kernel,tsubasa,mint" />
   <project path="kernel/sony/msm8960t" name="AOKP/kernel_sony_msm8960t" remote="aokp" revision="kitkat" groups="notdefault,kernel,huashan" />
+  <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,honami,togari" />
   <project path="libcore" name="AOKP/libcore" remote="aokp" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -363,7 +365,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Dialer" name="AOKP/packages_apps_Dialer" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -375,7 +377,7 @@
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="notdefault,legacypackages" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" remote="aokp" revision="kitkat" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="notdefault,legacypackages" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -439,8 +441,10 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse"  />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="refs/heads/master" remote="aosp" groups="pdk,darwin,arm,notdefault" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" remote="aosp" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" revision="refs/heads/master" groups="pdk,darwin,arm,notdefault" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86,notdefault" />
 
   <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
@@ -451,8 +455,10 @@
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86,notdefault" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="refs/heads/master" groups="pdk,linux,arm,notdefault" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="refs/heads/master" groups="pdk,linux,arm,notdefault" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
