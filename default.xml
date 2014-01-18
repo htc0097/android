@@ -399,14 +399,13 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
   
-      <!-- Marvel and icong support -->
+      <!-- Marvel support -->
 	  
-	<project name="cm10-1-marvel/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />  
-    <project name="cm10-1-marvel/OWL-Predator-KERNEL" path="kernel/htc/msm7227" revision="master" />
-    <project name="cm10-1-marvel/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="master" />
-    <project name="cm10-1-marvel/android_vendor_htc_icong" path="vendor/htc/icong" revision="master" />
+   <project name="MarvellousCM10-1/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />  
+    <project name=MarvellousCM10-1/Marvellous-KERNEL" path="kernel/htc/msm7227" revision="master" />
+    <project name="MarvellousCM10-1/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="master" />
     <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
-    <project name="cm10-1-marvel/android_device_htc_marvel" path="device/htc/marvel" revision="master"/>
-    <project name="cm10-1-marvel/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" revision="master"/>
+    <project name="MarvellousCM10-1/android_device_htc_marvel" path="device/htc/marvel" revision="master"/>
+    <project name="MarvellousCM10-1/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" revision="master"/>
 
 </manifest>
