@@ -25,7 +25,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="MarvellousCM10-1/android" />
+  <project path="android" name="MarvelMod/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="WinSuk/android_bionic" />
@@ -402,11 +402,11 @@
   
       <!-- Marvel -->
 	  
-  <project name="MarvellousCM10-1/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />  
+  <project name="MarvelMod/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />  
   <project name="OWLProject/OWL-Predator-KERNEL" path="kernel/htc/msm7227" revision="master" />
-  <project name="MarvellousCM10-1/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="master" />
+  <project name="MarvelMod/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="master" />
   <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
-  <project name="MarvellousCM10-1/android_device_htc_marvel" path="device/htc/marvel" revision="master"/>
-  <project name="MarvellousCM10-1/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" revision="master"/>
+  <project name="MarvelMod/android_device_htc_marvel" path="device/htc/marvel" revision="master"/>
+  <project name="MarvelMod/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" revision="master"/>
 
 </manifest>
