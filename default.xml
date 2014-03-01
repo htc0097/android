@@ -21,8 +21,12 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="androidarmv6/android_build">
+  <project path="build" name="MarvelMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="scripts" name="MarvelMod/build">
+    <copyfile src="build.sh" dest="build.sh" />
   </project>
 
   <project path="android" name="MarvelMod/android" />
