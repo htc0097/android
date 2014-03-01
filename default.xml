@@ -25,10 +25,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="scripts" name="MarvelMod/build">
-    <copyfile src="build.sh" dest="build.sh" />
-  </project>
-
   <project path="android" name="MarvelMod/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
@@ -403,7 +399,9 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
-  <project path="vendor/marvellous" name="MarvelMod/android_vendor_marvellous" revision="jellybean" />
+  <project path="vendor/marvellous" name="MarvelMod/android_vendor_marvellous" revision="cm-10.1">
+      <copyfile src="scripts/build.sh" dest="build.sh" />
+  </project>
   
       <!-- Marvel -->
 	  
