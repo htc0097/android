@@ -439,4 +439,12 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+
+  <!-- le Marvel -->
+  <project name="MarvelMod/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />  
+  <project name="MarvelMod/kernel_htc_msm7227" path="kernel/htc/msm7227" revision="master" />
+  <project name="MarvelMod/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="master" />
+  <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
+  <project name="MarvelMod/android_device_htc_marvel" path="device/htc/marvel" revision="cm-10.2"/>
+  <project name="MarvelMod/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" revision="master"/>
 </manifest>
