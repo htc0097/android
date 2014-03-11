@@ -352,7 +352,7 @@
   <project path="kernel/sony/msm8x60" name="AOKP/kernel_sony_msm8x60" remote="aokp" revision="kitkat" groups="notdefault,kernel,tsubasa,mint" />
   <project path="kernel/sony/msm8960t" name="AOKP/kernel_sony_msm8960t" remote="aokp" revision="kitkat" groups="notdefault,kernel,huashan" />
   <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,honami,togari" />
-  <project path="libcore" name="AOKP/libcore" remote="aokp" revision="kitkat" />
+  <project path="libcore" name="libcore" remote="legacy-aokp" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
