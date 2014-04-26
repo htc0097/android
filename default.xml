@@ -19,7 +19,7 @@
   <default revision="refs/heads/cm-10.2"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="8" />
 
   <project path="build" name="androidarmv6/android_build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -251,7 +251,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="cm-10-2-marvel/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="androidarmv6/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="androidarmv6/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
@@ -259,7 +259,7 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="cm-10-2-marvel/android_frameworks_native" groups="pdk"/>
+  <project path="frameworks/native" name="androidarmv6/android_frameworks_native" groups="pdk"/>
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
@@ -283,23 +283,23 @@
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="cm-10-2-marvel/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" groups="pdk" />
-  <project path="hardware/msm7k" name="cm-10-2-marvel/android_hardware_msm7k" />
+  <project path="hardware/msm7k" name="marvel-dev/hardware_msm7k" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
-  <project path="hardware/qcom/display-legacy" name="cm-10-2-marvel/android_hardware_qcom_display-legacy" groups="qcom" />
+  <project path="hardware/qcom/display-legacy" name="marvel-dev/hardware_qcom_display-legacy" groups="qcom" />
   <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
-  <project path="hardware/qcom/media_legacy" name="cm-10-2-marvel/android_hardware_qcom_media_legacy" revision="master" />
+  <project path="hardware/qcom/media_legacy" name="androidarmv6/android_hardware_qcom_media_legacy" revision="master" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
@@ -442,7 +442,7 @@
 
   <!-- le Marvel -->
   <project name="MarvelMod/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />  
-  <project name="MarvelMod/kernel_htc_msm7227" path="kernel/htc/msm7227" revision="master" />
+  <project name="MarvelMod/kernel_htc_msm7227" path="kernel/htc/msm7227" revision="small" />
   <project name="MarvelMod/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="master" />
   <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
   <project name="MarvelMod/android_device_htc_marvel" path="device/htc/marvel" revision="cm-10.2"/>
