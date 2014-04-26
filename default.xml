@@ -299,7 +299,7 @@
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
-  <project path="hardware/qcom/media_legacy" name="androidarmv6/android_hardware_qcom_media_legacy" revision="master" />
+  <project path="hardware/qcom/media_legacy" name="androidarmv6/android_hardware_qcom_media_legacy" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
@@ -441,10 +441,10 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 
   <!-- le Marvel -->
-  <project name="MarvelMod/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />  
-  <project name="MarvelMod/kernel_htc_msm7227" path="kernel/htc/msm7227" />
-  <project name="MarvelMod/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="master" />
   <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
   <project name="MarvelMod/android_device_htc_marvel" path="device/htc/marvel" />
-  <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" />
+  <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" />  
+  <project name="MarvelMod/kernel_htc_msm7227" path="kernel/htc/msm7227" />
+  <project name="MarvelMod/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />  
+  <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" />
 </manifest>
