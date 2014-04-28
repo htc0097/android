@@ -17,23 +17,25 @@ Then to sync up:
     repo sync
     sh vendor/cm/get-prebuilts
     
+
 Fixing problems with repository
+------------------------------
 Execute the following commands to fix problems in the CM11 repositories:
 
-    cp hardware/qcom/media/mm-core/inc/QCMediaDefs.h frameworks/av/media/libstagefright/
-    cp hardware/qcom/media/mm-core/inc/QCMetaData.h frameworks/av/media/libstagefright/
-    cp hardware/qcom/media/mm-core/inc/QOMX_AudioExtensions.h frameworks/av/media/libstagefright/
-    cp hardware/qcom/media/mm-core/inc/OMX_QCOMExtns.h frameworks/av/media/libstagefright/
-    cp hardware/qcom/media/mm-core/inc/QCMediaDefs.h frameworks/av/media/libmediaplayerservice
+    cp hardware/qcom/media-legacy/mm-core/inc/QCMediaDefs.h frameworks/av/media/libstagefright/
+    cp hardware/qcom/media-legacy/mm-core/inc/QCMetaData.h frameworks/av/media/libstagefright/
+    cp hardware/qcom/media-legacy/mm-core/inc/QOMX_AudioExtensions.h frameworks/av/media/libstagefright/
+    cp hardware/qcom/media-legacy/mm-core/inc/OMX_QCOMExtns.h frameworks/av/media/libstagefright/
+    cp hardware/qcom/media-legacy/mm-core/inc/QCMediaDefs.h frameworks/av/media/libmediaplayerservice
 
 Build your device:
 
     source build/envsetup.sh
-    brunch DEVICENAME (for ex: brunch cooper)
+    brunch marvel
 
 Flash ZIP:
 
-    out/target/product/DEVICENAME/cm-VERSION-DEVICENAME.zip
+    out/target/product/DEVICENAME/cm-11.0-DATE-UNOFFICIAL-marvel.zip
 
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
