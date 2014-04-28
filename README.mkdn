@@ -19,6 +19,7 @@ Then to sync up:
     
 Fixing problems with repository
 Execute the following commands to fix problems in the CM11 repositories:
+
     cp hardware/qcom/media/mm-core/inc/QCMediaDefs.h frameworks/av/media/libstagefright/
     cp hardware/qcom/media/mm-core/inc/QCMetaData.h frameworks/av/media/libstagefright/
     cp hardware/qcom/media/mm-core/inc/QOMX_AudioExtensions.h frameworks/av/media/libstagefright/
