@@ -443,7 +443,7 @@
   <!-- le Marvel -->
   <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
   <project name="MarvelMod/android_device_htc_marvel" path="device/htc/marvel" />
-  <project name="MarvelMod/android_device_qcom_msm7x27" path="device/qcom/msm7x27" />  
+  <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" />  
   <project name="MarvelMod/kernel_htc_msm7227" path="kernel/htc/msm7227" />
   <project name="MarvelMod/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />  
   <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" />
