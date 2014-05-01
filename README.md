@@ -1,24 +1,3 @@
-Submitting Patches
-------------------
-Our ROM is open source, and patches are always welcome!
-You can send patches by using these commands:
-
-    cd <project>
-    <make edits>
-    git add -A
-    git commit -m "commit message"
-    git push ssh://<username>@review.androidarmv6.org:29418/<project> HEAD:refs/for/<branch>
-
-Register at review.androidarmv6.org and use the username that you registered there in the above command
-
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-If you are going to make extra additions, just repeat steps (Don't start a new patch), but instead of git commit -m
-use git commit --amend. Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [OMNIROM ARMv6 Code Review](http://review.androidarmv6.org)
-
-
 Getting Started
 ---------------
 
@@ -27,7 +6,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the OMNIROM trees, use a command like this:
 
-    repo init -u git://github.com/omniarmv6/android.git -b android-4.4
+    repo init -u git://github.com/MarvelMod/android.git -b android-4.4
 
 Then to sync up:
 
@@ -37,7 +16,7 @@ Then to build:
 
      cd <source-dir>
      source build/envsetup.sh
-     brunch <device_name>
+     brunch <device_name> (e.g. marvel, liberty or icong)
 
 
 If you need more information or a more detailed guide, click [here to see our wiki.](http://docs.omnirom.org)

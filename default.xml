@@ -16,6 +16,9 @@
   <remote  name="androidarmv6"
            fetch="git://github.com/androidarmv6" />
 
+  <remote  name="mm"
+           fetch="git://github.com/MarvelMod" />		   
+		   
   <remote  name="bitbucket-private"
            fetch="ssh://git@bitbucket.com" />
 
@@ -27,11 +30,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="omniarmv6/android" remote="github" revision="android-4.4" />
+  <project path="android" name="MarvelMod/android" remote="github" revision="android-4.4" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
-  <project path="bionic" name="android_bionic" remote="androidarmv6" revision="cm-11.0" />
+  <project path="bionic" name="android_bionic" remote="mm" revision="cm-11.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4" />
@@ -55,7 +58,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/mdpi-common" name="omniarmv6/android_device_mdpi-common" remote="github" revision="android-4.4" />
   <project path="device/ldpi-common" name="omniarmv6/android_device_ldpi-common" remote="github" revision="android-4.4" />
-  <project path="device/qcom/msm7x27" name="omniarmv6/android_device_qcom_msm7x27" remote="github" revision="android-4.4" />
+  <project path="device/qcom/msm7x27" name="MarvelMod/android_device_qcom_msm7x27" remote="github" revision="android-4.4" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -247,7 +250,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
-  <project path="external/webkit" name="android_external_webkit" remote="androidarmv6" revision="cm-11.0" />
+  <project path="external/webkit" name="android_external_webkit" remote="mm" revision="cm-11.0" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
@@ -287,7 +290,7 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" revision="android-4.4" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="omnirom" revision="android-4.4" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="mm" revision="cm-11.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-4.4" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-4.4" />
@@ -295,9 +298,9 @@
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-4.4" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-4.4" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="androidarmv6" revision="cm-11.0" />
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="mm" revision="cm-11.0" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="androidarmv6" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="mm" revision="cm-11.0" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-4.4" />
@@ -454,4 +457,12 @@
   <project path="vendor/omni" name="omniarmv6/android_vendor_omni" remote="github" revision="android-4.4" />
   <project path="vendor/qcom/msm7x27" name="omniarmv6/android_vendor_qcom_msm7x27" remote="github" revision="android-4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
+  
+   <!-- HTC Wildfire S -->
+  <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
+  <project name="MarvelMod/android_device_htc_marvel" path="device/htc/marvel" revision="android-4.4" />
+  <!--<project name="MarvelMod/android_device_htc_liberty" path="device/htc/liberty" />-->
+  <project name="MarvelMod/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" revision="cm-11.0" />
+  <project name="MarvelMod/kernel_htc_msm7227" path="kernel/htc/msm7227" revision="cm-11.0" />
+  <project name="MarvelMod/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />  
 </manifest>
