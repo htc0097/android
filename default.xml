@@ -17,7 +17,7 @@
            fetch="git://github.com/androidarmv6" />
 
   <remote  name="mm"
-           fetch="git://github.com/MarvelMod" />		   
+           fetch="git://github.com/SimplicityCM" />		   
 		   
   <remote  name="bitbucket-private"
            fetch="ssh://git@bitbucket.com" />
@@ -30,7 +30,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="MarvelMod/android" remote="github" revision="android-4.4" />
+  <project path="android" name="SimplicityCM/android" remote="github" revision="android-4.4" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
@@ -58,7 +58,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/mdpi-common" name="omniarmv6/android_device_mdpi-common" remote="github" revision="android-4.4" />
   <project path="device/ldpi-common" name="omniarmv6/android_device_ldpi-common" remote="github" revision="android-4.4" />
-  <project path="device/qcom/msm7x27" name="MarvelMod/android_device_qcom_msm7x27" remote="github" revision="android-4.4" />
+  <project path="device/qcom/msm7x27" name="SimplicityCM/android_device_qcom_msm7x27" remote="github" revision="android-4.4" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -460,9 +460,9 @@
   
    <!-- HTC Wildfire S -->
   <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" remote="github" revision="refs/heads/gingerbread" />
-  <project name="MarvelMod/android_device_htc_marvel" path="device/htc/marvel" remote="github" revision="android-4.4" />
-  <!--<project name="MarvelMod/android_device_htc_liberty" path="device/htc/liberty" remote="github" />-->
-  <project name="MarvelMod/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" remote="github" revision="android-4.4" />
-  <project name="MarvelMod/kernel_htc_msm7227" path="kernel/htc/msm7227" remote="github" revision="cm-11.0" />
-  <project name="MarvelMod/android_vendor_htc_marvel" path="vendor/htc/marvel" remote="github" revision="master" />  
+  <project name="SimplicityCM/android_device_htc_marvel" path="device/htc/marvel" remote="github" revision="android-4.4" />
+  <!--<project name="SimplicityCM/android_device_htc_liberty" path="device/htc/liberty" remote="github" />-->
+  <project name="SimplicityCM/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" remote="github" revision="android-4.4" />
+  <project name="SimplicityCM/kernel_htc_msm7227" path="kernel/htc/msm7227" remote="github" revision="cm-11.0" />
+  <project name="SimplicityCM/android_vendor_htc_marvel" path="vendor/htc/marvel" remote="github" revision="master" />  
 </manifest>
