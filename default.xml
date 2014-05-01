@@ -459,10 +459,10 @@
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
   
    <!-- HTC Wildfire S -->
-  <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
-  <project name="MarvelMod/android_device_htc_marvel" path="device/htc/marvel" revision="android-4.4" />
-  <!--<project name="MarvelMod/android_device_htc_liberty" path="device/htc/liberty" />-->
-  <project name="MarvelMod/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" revision="cm-11.0" />
-  <project name="MarvelMod/kernel_htc_msm7227" path="kernel/htc/msm7227" revision="cm-11.0" />
-  <project name="MarvelMod/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />  
+  <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" remote="github" revision="refs/heads/gingerbread" />
+  <project name="MarvelMod/android_device_htc_marvel" path="device/htc/marvel" remote="github" revision="android-4.4" />
+  <!--<project name="MarvelMod/android_device_htc_liberty" path="device/htc/liberty" remote="github" />-->
+  <project name="MarvelMod/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" remote="github" revision="cm-11.0" />
+  <project name="MarvelMod/kernel_htc_msm7227" path="kernel/htc/msm7227" remote="github" revision="cm-11.0" />
+  <project name="MarvelMod/android_vendor_htc_marvel" path="vendor/htc/marvel" remote="github" revision="master" />  
 </manifest>
