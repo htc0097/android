@@ -38,7 +38,7 @@
   <project path="bionic" name="android_bionic" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" />
+  <project path="bootable/recovery" name="androidarmv6/android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts"/>
   <project path="dalvik" name="android_dalvik" remote="androidarmv6" revision="cm-11.0" />
   <project path="developers/build" name="platform/developers/build" />
@@ -49,7 +49,7 @@
   <project path="device/common" name="device/common" groups="device" />
   <project path="device/samsung/cooper" name="android_device_samsung_cooper" remote="legacy-aokp" revision="kitkat" />
   <project path="device/samsung/msm7x27-common" name="android_device_samsung_msm7x27-common" remote="legacy-aokp" revision="kitkat" />
-  <project path="device/qcom/msm7x27" name="android_device_qcom_msm7x27" remote="legacy-aokp" revision="kitkat" />
+  <project path="device/qcom/msm7x27" name="SimplicityCM/android_device_qcom_msm7x27" remote="cm" revision="cm-11.0" />
   <project path="device/mdpi-common" name="android_device_mdpi-common" remote="legacy-aokp" revision="kitkat" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -148,7 +148,7 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/iproute2" name="SimplicityCM/android_external_iproute2" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/iputils" name="platform/external/iputils" />
@@ -258,7 +258,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
-  <project path="external/webkit" name="android_external_webkit" remote="androidarmv6" revision="cm-11.0" />
+  <project path="external/webkit" name="SimplicityCM/android_external_webkit" remote="cm" revision="cm-11.0" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="androidarmv6" revision="cm-11.0" groups="pdk"/>
@@ -268,7 +268,7 @@
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
+  <project path="frameworks/av" name="SimplicityCM/android_frameworks_av" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="legacy-aokp" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -301,12 +301,12 @@
   <project path="hardware/atheros/ath6kl-compat" name="android_hardware_atheros_ath6kl-compat" remote="androidarmv6" revision="cm-11.0" />
   <project path="hardware/atheros/wifi/libs" name="android_hardware_atheros_wifi_libs" remote="androidarmv6" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
-  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="androidarmv6" revision="cm-11.0" />
+  <project path="hardware/qcom/display-legacy" name="SimplicityCM/android_hardware_qcom_display-legacy" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="androidarmv6" revision="cm-11.0" />
-  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="androidarmv6" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="SimplicityCM/android_hardware_qcom_media-legacy" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/msm7x27" name="android_kernel_samsung_msm7x27" remote="androidarmv6" revision="cm-11.0" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="SimplicityCM/android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-11.0" groups="pdk" />
@@ -515,5 +515,13 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="legacy-aokp" revision="kitkat" />
+  <project path="platform_manifest" name="SimplicityCM/android" remote="cm" revision="aokp-kitkat" />
+  
+   <!-- HTC Wildfire S -->
+  <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" remote="cm" revision="refs/heads/gingerbread" />
+  <project name="SimplicityCM/android_device_htc_marvel" path="device/htc/marvel" remote="cm" revision="aokp-kitkat" />
+  <!--<project name="SimplicityCM/android_device_htc_liberty" path="device/htc/liberty" remote="cm" revision="aokp-kitkat" />-->
+  <project name="SimplicityCM/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" remote="cm" revision="cm-11.0" />
+  <project name="SimplicityCM/kernel_htc_msm7227" path="kernel/htc/msm7227" remote="cm" revision="cm-11.0" />
+  <project name="SimplicityCM/proprietary_vendor_htc" path="vendor/htc" remote="cm" revision="cm-11.0" />  
 </manifest>
