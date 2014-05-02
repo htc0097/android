@@ -303,7 +303,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
   <project path="hardware/qcom/display-legacy" name="SimplicityCM/android_hardware_qcom_display-legacy" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="androidarmv6" revision="cm-11.0" />
-  <project path="hardware/qcom/media-legacy" name="SimplicityCM/android_hardware_qcom_media-legacy" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="androidarmv6/android_hardware_qcom_media-legacy" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/msm7x27" name="android_kernel_samsung_msm7x27" remote="androidarmv6" revision="cm-11.0" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="SimplicityCM/android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" groups="broadcom_wlan" />
