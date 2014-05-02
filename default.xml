@@ -29,7 +29,7 @@
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
 <!--  <project path="art" name="CyanogenMod/android_art" /> -->
-  <project path="bionic" name="SimplicityCM/android_bionic" groups="pdk" />
+  <project path="bionic" name="androidarmv6/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="androidarmv6/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="cts" />
@@ -326,7 +326,7 @@
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
-  <project path="hardware/qcom/display-legacy" name="SimplicityCM/android_hardware_qcom_display-legacy" groups="qcom" />
+  <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" groups="qcom" />
   <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media-legacy" name="androidarmv6/android_hardware_qcom_media-legacy" />
