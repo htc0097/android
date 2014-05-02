@@ -506,7 +506,7 @@
 -->
   <project path="vendor/qcom/msm7x27" name="android_vendor_qcom_msm7x27" remote="androidarmv6" revision="cm-11.0" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="androidarmv6" revision="cm-11.0" />
-  <project path="vendor/aokp" name="vendor_aokp" remote="legacy-aokp" revision="kitkat" />
+  <project path="vendor/aokp" name="SimplicityCM/vendor_aokp" remote="cm" revision="kitkat" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
