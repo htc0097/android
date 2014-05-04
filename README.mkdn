@@ -10,23 +10,13 @@ familiar with [Git and Repo](http://source.android.com/source/developing.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/androidarmv6/android.git -b cm-11.0
+    repo init -u git://github.com/SimplicityCM/android.git -b cm-11.0
 
 Then to sync up:
 
     repo sync
     sh vendor/cm/get-prebuilts
     
-
-Fixing problems with repository
-------------------------------
-Execute the following commands to fix problems in the CM11 repositories:
-
-    cp hardware/qcom/media-legacy/mm-core/inc/QCMediaDefs.h frameworks/av/media/libstagefright/
-    cp hardware/qcom/media-legacy/mm-core/inc/QCMetaData.h frameworks/av/media/libstagefright/
-    cp hardware/qcom/media-legacy/mm-core/inc/QOMX_AudioExtensions.h frameworks/av/media/libstagefright/
-    cp hardware/qcom/media-legacy/mm-core/inc/OMX_QCOMExtns.h frameworks/av/media/libstagefright/
-    cp hardware/qcom/media-legacy/mm-core/inc/QCMediaDefs.h frameworks/av/media/libmediaplayerservice
 
 Build your device:
 
