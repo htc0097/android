@@ -52,7 +52,7 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/mdpi-common" name="androidarmv6/android_device_mdpi-common" />
   <project path="device/ldpi-common" name="androidarmv6/android_device_ldpi-common" />
-  <project name="SimplicityCM/android_device_qcom_msm7x27" path="device/qcom/msm7x27" />
+  <project path="device/qcom/msm7x27" name="androidarmv6/android_device_qcom_msm7x27" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
