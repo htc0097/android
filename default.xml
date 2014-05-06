@@ -21,11 +21,11 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="MarvelMod/android_build">
+  <project path="build" name="SimplicityCM/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="MarvelMod/android" />
+  <project path="android" name="SimplicityCM/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="WinSuk/android_bionic" />
@@ -260,7 +260,7 @@
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" />
-  <project path="hardware/msm7k" name="MarvelMod/android_hardware_msm7k" />
+  <project path="hardware/msm7k" name="SimplicityCM/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" />
@@ -394,7 +394,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="vendor/cm" name="MarvelMod/android_vendor_cm" revision="cm-10.1">
+  <project path="vendor/cm" name="SimplicityCM/android_vendor_cm" revision="cm-10.1">
       <copyfile src="scripts/build.sh" dest="build.sh" />
   </project>
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
@@ -407,13 +407,13 @@
   
       <!-- Marvel -->
 	  
-  <project name="MarvelMod/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />
-  <project name="MarvelMod/android_vendor_htc_icong" path="vendor/htc/icong" revision="master" />  
-  <project name="MarvelMod/kernel_htc_msm7227" path="kernel/htc/msm7227" revision="small" />
-  <project name="MarvelMod/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="master" />
+  <project name="SimplicityCM/android_vendor_htc_marvel" path="vendor/htc/marvel" revision="master" />
+  <project name="SimplicityCM/android_vendor_htc_icong" path="vendor/htc/icong" revision="master" />  
+  <project name="SimplicityCM/kernel_htc_msm7227" path="kernel/htc/msm7227" />
+  <project name="SimplicityCM/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="master" />
   <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
-  <project name="MarvelMod/android_device_htc_marvel" path="device/htc/marvel"/>
-  <project name="MarvelMod/android_device_htc_icong" path="device/htc/icong" revision="cm-10.1"/>
-  <project name="MarvelMod/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" revision="master"/>
+  <project name="SimplicityCM/android_device_htc_marvel" path="device/htc/marvel"/>
+  <project name="SimplicityCM/android_device_htc_icong" path="device/htc/icong" revision="cm-10.1"/>
+  <project name="SimplicityCM/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" revision="master"/>
 
 </manifest>
