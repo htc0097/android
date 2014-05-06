@@ -21,7 +21,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="SimplicityCM/android_build">
+  <project path="build" name="androidarmv6/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -403,13 +403,13 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+  <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" />
 
-  
+
       <!-- Marvel -->
 	  
   <project name="SimplicityCM/proprietary_vendor_htc" path="vendor/htc" />
   <project name="SimplicityCM/kernel_htc_msm7227" path="kernel/htc/msm7227" />
-  <project name="SimplicityCM/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="master" />
   <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
   <project name="SimplicityCM/android_device_htc_marvel" path="device/htc/marvel"/>
   <project name="SimplicityCM/android_device_htc_icong" path="device/htc/icong" revision="cm-10.1"/>
