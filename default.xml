@@ -118,6 +118,7 @@
   <project path="external/droiddriver" name="platform/external/droiddriver" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="CyanogenMod/android_external_easymock" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" />
   <project path="external/eclipse-basebuilder" name="CyanogenMod/android_external_eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="CyanogenMod/android_external_eclipse-windowbuilder" />
   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" />
@@ -491,9 +492,11 @@
   <project name="SimplicityCM/android_device_htc_chacha" path="device/htc/chacha" />
   <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
   <project name="SimplicityCM/android_device_htc_icong" path="device/htc/icong" />
+  <project name="SimplicityCM/android_device_htc_legend" path="device/htc/legend" />
   <project name="SimplicityCM/android_device_htc_liberty" path="device/htc/liberty" />
   <project name="SimplicityCM/android_device_htc_marvel" path="device/htc/marvel" />
   <project name="SimplicityCM/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" />
+  <project name="SimplicityCM/android_device_htc_msm7x27-tiwlan-common" path="device/htc/msm7x27-tiwlan-common" />
   <project name="SimplicityCM/android_kernel_htc_msm7x27" path="kernel/htc/msm7x27" />
   <project name="SimplicityCM/proprietary_vendor_htc" path="vendor/htc" />  
 </manifest>
