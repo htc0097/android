@@ -21,7 +21,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="androidarmv6/android_build" groups="pdk">
+  <project path="build" name="SimplicityCM/android_build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
