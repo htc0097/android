@@ -285,7 +285,7 @@
   <project path="frameworks/rs" name="android_frameworks_rs" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
+  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" revision="refs/tags/android-4.4.2_r2" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <!-- fix me later --><project path="frameworks/webview" name="platform/frameworks/webview" revision="dcd9911315bc6864b61d1d76ca0ff3904227889b" upstream="refs/heads/kitkat-release"/>
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
@@ -399,7 +399,7 @@
   <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" />
   <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" />
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
-  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
+  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
