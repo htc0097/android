@@ -22,7 +22,7 @@
   <remote  name="bitbucket-private"
            fetch="ssh://git@bitbucket.com" />
 
-  <default revision="refs/tags/android-4.4.2_r2"
+  <default revision="refs/tags/android-4.4.3_r1.1"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
