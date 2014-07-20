@@ -450,5 +450,5 @@
   <project name="SimplicityCM/android_device_htc_marvel" path="device/htc/marvel" />
   <project name="SimplicityCM/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" />
   <project name="SimplicityCM/android_kernel_htc_msm7x27" path="kernel/htc/msm7x27" />
-  <project name="SimplicityCM/proprietary_vendor_htc" path="vendor/htc" />  
+  <project name="SimplicityCM/proprietary_vendor_htc" path="vendor/htc" revision="cm-11.0"  />  
 </manifest>
